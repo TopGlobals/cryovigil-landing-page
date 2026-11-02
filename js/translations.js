@@ -99,7 +99,7 @@ const translations = {
     integration_item3_title: "API & LIMS Integration",
     integration_item3_desc:
       "Connect to your existing systems via open REST API",
-    integration_cta: "Try It Now",
+    integration_cta: "Register Now",
 
     // Compliance Section
     compliance_badge: "Regulatory Confidence",
@@ -358,7 +358,7 @@ const translations = {
     integration_item3_title: "Integración con API y LIMS",
     integration_item3_desc:
       "Conéctese a sus sistemas actuales mediante una API REST abierta",
-    integration_cta: "Pruébelo Ahora",
+    integration_cta: "Registrate ahora",
 
     // Compliance Section
     compliance_badge: "Confianza Regulatoria",
