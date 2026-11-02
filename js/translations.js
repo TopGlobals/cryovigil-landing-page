@@ -99,7 +99,7 @@ const translations = {
     integration_item3_title: "API & LIMS Integration",
     integration_item3_desc:
       "Connect to your existing systems via open REST API",
-    integration_cta: "Try It Now",
+    integration_cta: "Register Now",
 
     // Compliance Section
     compliance_badge: "Regulatory Confidence",
@@ -117,9 +117,10 @@ const translations = {
     pricing_title: "Simple, Transparent Pricing",
     pricing_subtitle: "No hidden fees. Scale as your lab grows.",
     pricing_swipe: 'Swipe to compare plans <span aria-hidden="true">→</span>',
+
     pricing_plan1_category: "Laboratory Monitoring",
     pricing_plan1_title: "Standard",
-    pricing_plan1_price: "$299",
+    pricing_plan1_price: "$399",
     pricing_plan1_period: "/mo",
     pricing_plan1_subtext: "Up to 10 sensors, 1 location",
     pricing_plan1_item1: "Real-time temperature tracking",
@@ -130,16 +131,28 @@ const translations = {
     pricing_plan1_cta: "Register Now",
 
     pricing_plan2_badge: "Most Popular",
-    pricing_plan2_category: "Multi-site Enterprise",
-    pricing_plan2_title: "Enterprise",
-    pricing_plan2_price: "Custom",
-    pricing_plan2_subtext: "Unlimited sensors, unlimited locations",
+    pricing_plan2_category: "Advanced Monitoring",
+    pricing_plan2_title: "Professional",
+    pricing_plan2_price: "$799",
+    pricing_plan2_period: "/mo",
+    pricing_plan2_subtext: "Up to 30 sensors, 3 locations",
     pricing_plan2_item1: "All Standard features included",
-    pricing_plan2_item2: "24/7 priority emergency hotline",
-    pricing_plan2_item3: "Annual calibration service",
-    pricing_plan2_item4: "Dedicated customer success manager",
-    pricing_plan2_item5: "Custom API & LIMS integrations",
-    pricing_plan2_cta: "Contact Sales",
+    pricing_plan2_item2: "Priority email & phone support",
+    pricing_plan2_item3: "Advanced predictive analytics",
+    pricing_plan2_item4: "Custom report generator",
+    pricing_plan2_item5: "Unlimited users & roles",
+    pricing_plan2_cta: "Register Now",
+
+    pricing_plan3_category: "Multi-site Enterprise",
+    pricing_plan3_title: "Enterprise",
+    pricing_plan3_price: "$1499",
+    pricing_plan3_subtext: "Unlimited sensors, unlimited locations",
+    pricing_plan3_item1: "All Professional features included",
+    pricing_plan3_item2: "24/7 priority emergency hotline",
+    pricing_plan3_item3: "Annual calibration service",
+    pricing_plan3_item4: "Dedicated customer success manager",
+    pricing_plan3_item5: "Custom API & LIMS integrations",
+    pricing_plan3_cta: "Contact Sales",
 
     // Video Section
     videos_badge: "See It In Action",
@@ -151,7 +164,7 @@ const translations = {
     video_team_aria: "CryoVigil team video player",
     videos_unavailable: "Video coming soon. A recording will be added here.",
     team_video_badge: "Meet Us",
-    team_video_title: "About the Team Video",
+    team_video_title: "About the Team",
     team_video_subtitle: "Get a closer look at the people behind CryoVigil.",
 
     // Team Section
@@ -358,7 +371,7 @@ const translations = {
     integration_item3_title: "Integración con API y LIMS",
     integration_item3_desc:
       "Conéctese a sus sistemas actuales mediante una API REST abierta",
-    integration_cta: "Pruébelo Ahora",
+    integration_cta: "Registrate ahora",
 
     // Compliance Section
     compliance_badge: "Confianza Regulatoria",
@@ -376,13 +389,12 @@ const translations = {
     // Pricing Section
     pricing_badge: "Precios Transparentes",
     pricing_title: "Precios Simples y Transparentes",
-    pricing_subtitle:
-      "Sin costos ocultos. Escale a medida que su laboratorio crezca.",
-    pricing_swipe:
-      'Desliza para comparar planes <span aria-hidden="true">→</span>',
+    pricing_subtitle: "Sin costos ocultos. Escale a medida que su laboratorio crezca.",
+    pricing_swipe: 'Desliza para comparar planes <span aria-hidden="true">→</span>',
+
     pricing_plan1_category: "Monitoreo de Laboratorio",
     pricing_plan1_title: "Estándar",
-    pricing_plan1_price: "$299",
+    pricing_plan1_price: "$399",
     pricing_plan1_period: "/mes",
     pricing_plan1_subtext: "Hasta 10 sensores, 1 sede",
     pricing_plan1_item1: "Seguimiento de temperatura en tiempo real",
@@ -390,19 +402,31 @@ const translations = {
     pricing_plan1_item3: "Calibración multizona de sensores",
     pricing_plan1_item4: "Alertas por correo y SMS",
     pricing_plan1_item5: "Retención de datos por 7 años",
-    pricing_plan1_cta: "Registrate ahora",
+    pricing_plan1_cta: "Registrarse ahora",
 
     pricing_plan2_badge: "Más Popular",
-    pricing_plan2_category: "Empresarial Multisitio",
-    pricing_plan2_title: "Empresarial",
-    pricing_plan2_price: "A Medida",
-    pricing_plan2_subtext: "Sensores y sedes ilimitados",
+    pricing_plan2_category: "Monitoreo Avanzado",
+    pricing_plan2_title: "Profesional",
+    pricing_plan2_price: "$799",
+    pricing_plan2_period: "/mes",
+    pricing_plan2_subtext: "Hasta 30 sensores, 3 sedes",
     pricing_plan2_item1: "Todas las funciones Estándar incluidas",
-    pricing_plan2_item2: "Línea de emergencia prioritaria 24/7",
-    pricing_plan2_item3: "Servicio anual de calibración",
-    pricing_plan2_item4: "Gestor de éxito del cliente dedicado",
-    pricing_plan2_item5: "Integraciones a medida con API y LIMS",
-    pricing_plan2_cta: "Contactar a Ventas",
+    pricing_plan2_item2: "Soporte prioritario por correo y teléfono",
+    pricing_plan2_item3: "Análisis predictivo avanzado",
+    pricing_plan2_item4: "Generador de reportes personalizados",
+    pricing_plan2_item5: "Usuarios y roles ilimitados",
+    pricing_plan2_cta: "Registrarse ahora",
+
+    pricing_plan3_category: "Empresarial Multisitio",
+    pricing_plan3_title: "Empresarial",
+    pricing_plan3_price: "$1499",
+    pricing_plan3_subtext: "Sensores y sedes ilimitados",
+    pricing_plan3_item1: "Todas las funciones Profesional incluidas",
+    pricing_plan3_item2: "Línea de emergencia prioritaria 24/7",
+    pricing_plan3_item3: "Servicio anual de calibración",
+    pricing_plan3_item4: "Gestor de éxito del cliente dedicado",
+    pricing_plan3_item5: "Integraciones a medida con API y LIMS",
+    pricing_plan3_cta: "Contactar a Ventas",
 
     // Video Section
     videos_badge: "Véalo en Acción",
@@ -415,7 +439,7 @@ const translations = {
     video_team_aria: "Reproductor del video del equipo CryoVigil",
     videos_unavailable: "Video próximamente. La grabación se agregará aquí.",
     team_video_badge: "Conócenos",
-    team_video_title: "Video sobre el Equipo",
+    team_video_title: "Sobre el Equipo",
     team_video_subtitle: "Conozca más de cerca a las personas detrás de CryoVigil.",
 
     // Team Section
