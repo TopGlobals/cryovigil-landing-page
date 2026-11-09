@@ -11,13 +11,24 @@
     <title>Privacy Policy | CryoVigil</title>
     <link rel="stylesheet" href="css/style.css?v=mobile-carousel-2" />
 </head>
-<body class="min-h-screen bg-slate-50 text-slate-800">
-<header class="bg-white border-b border-slate-200">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-5">
-        <a class="font-bold text-brand-700 text-xl" href="index.html">CryoVigil</a>
+<body class="legal-page flex flex-col min-h-screen text-slate-800">
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-20 py-4 flex flex-wrap items-center justify-between gap-4">
+        <a class="flex items-center gap-2.5" href="index.html">
+            <img class="w-9 h-9 rounded-lg object-cover" src="assets/img/logo_cryovigil.jpeg" alt="" />
+            <span class="text-xl font-bold tracking-tight text-slate-900">CryoVigil</span>
+        </a>
+        <nav class="flex flex-wrap items-center gap-4 sm:gap-6 text-sm font-medium text-slate-600" aria-label="Main navigation">
+            <a class="hover:text-brand-600 transition-colors" href="index.html#features">Features</a>
+            <a class="hover:text-brand-600 transition-colors" href="index.html#videos">Videos</a>
+            <a class="hover:text-brand-600 transition-colors" href="index.html#pricing">Pricing</a>
+            <a class="hover:text-brand-600 transition-colors" href="index.html#about-us">About Us</a>
+            <a class="hover:text-brand-600 transition-colors" href="index.html#contact">Contact</a>
+            <a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-500 text-white hover:bg-brand-600 transition-colors" href="https://web-app-tst.web.app">Sign Up</a>
+        </nav>
     </div>
 </header>
-<main class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+<main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
     <article
             class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 space-y-8"
     >
@@ -167,5 +178,23 @@
         </section>
     </article>
 </main>
+<footer class="bg-white border-t border-slate-100 pt-10 pb-8" id="contact">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row justify-between gap-6">
+            <div>
+                <a class="text-xl font-bold tracking-tight text-slate-900" href="index.html">CryoVigil</a>
+                <p class="text-xs text-slate-500 max-w-sm mt-2">Precision in every analysis. Protecting the future of scientific research through intelligent cold-chain monitoring.</p>
+            </div>
+            <nav class="flex flex-wrap gap-x-6 gap-y-2 text-xs text-slate-500" aria-label="Footer navigation">
+                <a class="hover:text-brand-600" href="index.html#features">Features</a>
+                <a class="hover:text-brand-600" href="index.html#pricing">Pricing</a>
+                <a class="hover:text-brand-600" href="index.html#about-us">Our Team</a>
+                <a class="hover:text-brand-600" href="terms.html">Terms of Service</a>
+                <a class="hover:text-brand-600" href="mailto:hello@cryovigil.com">Contact</a>
+            </nav>
+        </div>
+        <p class="pt-6 mt-6 border-t border-slate-100 text-xs text-slate-400">© 2026 CryoVigil Technologies, Inc. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

@@ -157,6 +157,12 @@ svg {
 .hidden {
   display: none;
 }
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -168,6 +174,9 @@ svg {
 }
 .flex-shrink-0 {
   flex-shrink: 0;
+}
+.min-h-20 {
+  min-height: 5rem;
 }
 .items-start {
   align-items: flex-start;
@@ -219,6 +228,12 @@ svg {
 }
 .gap-12 {
   gap: 3rem;
+}
+.gap-x-6 {
+  column-gap: 1.5rem;
+}
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   margin-top: 0.25rem;
@@ -1149,6 +1164,12 @@ svg {
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
   }
+  .lg\:order-1 {
+    order: 1;
+  }
+  .lg\:order-2 {
+    order: 2;
+  }
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1237,5 +1258,52 @@ svg {
 
   .mobile-carousel[aria-label="Team members"] > * {
     flex-basis: 78%;
+  }
+}
+
+.legal-page {
+  background:
+    radial-gradient(circle at 8% 12%, rgb(209 250 229 / 55%), transparent 28rem),
+    linear-gradient(to bottom, #ffffff 0%, #f8fafc 42%, #ffffff 100%);
+}
+
+.legal-page main > article {
+  background: rgb(255 255 255 / 88%);
+  border-color: var(--brand-100);
+  box-shadow:
+    0 25px 50px -12px rgb(15 23 42 / 10%),
+    0 4px 12px -4px rgb(16 185 129 / 8%);
+}
+
+.legal-page article > header {
+  border-bottom-color: var(--brand-100);
+}
+
+.legal-page article section {
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--brand-200);
+  border-radius: 0.75rem;
+  background: linear-gradient(90deg, rgb(236 253 245 / 38%), transparent);
+}
+
+.legal-page article section h2 {
+  color: var(--brand-800);
+  border-bottom-color: var(--brand-200);
+}
+
+.legal-page article section h3,
+.legal-page article section h4 {
+  color: var(--slate-900);
+}
+
+.legal-page article p,
+.legal-page article li {
+  color: var(--slate-600);
+  line-height: 1.75;
+}
+
+@media (max-width: 639px) {
+  .legal-page article section {
+    padding-inline: 1rem;
   }
 }
