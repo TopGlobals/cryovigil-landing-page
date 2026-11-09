@@ -120,7 +120,7 @@ const translations = {
 
     pricing_plan1_category: "Laboratory Monitoring",
     pricing_plan1_title: "Standard",
-    pricing_plan1_price: "$399",
+    pricing_plan1_price: "$299",
     pricing_plan1_period: "/mo",
     pricing_plan1_subtext: "Up to 10 sensors, 1 location",
     pricing_plan1_item1: "Real-time temperature tracking",
@@ -159,12 +159,12 @@ const translations = {
     videos_title: "Watch and Learn",
     videos_subtitle: "Get a closer look at CryoVigil and the people behind it.",
     videos_card1_title: "About the Product",
-    videos_card2_title: "About the Team",
+    videos_card2_title: "The Team",
     video_product_aria: "CryoVigil product video player",
     video_team_aria: "CryoVigil team video player",
     videos_unavailable: "Video coming soon. A recording will be added here.",
     team_video_badge: "Meet Us",
-    team_video_title: "About the Team",
+    team_video_title: "The Team",
     team_video_subtitle: "Get a closer look at the people behind CryoVigil.",
 
     // Team Section
@@ -394,7 +394,7 @@ const translations = {
 
     pricing_plan1_category: "Monitoreo de Laboratorio",
     pricing_plan1_title: "Estándar",
-    pricing_plan1_price: "$399",
+    pricing_plan1_price: "$299",
     pricing_plan1_period: "/mes",
     pricing_plan1_subtext: "Hasta 10 sensores, 1 sede",
     pricing_plan1_item1: "Seguimiento de temperatura en tiempo real",
@@ -434,12 +434,12 @@ const translations = {
     videos_subtitle:
       "Conozca más de cerca CryoVigil y al equipo detrás del proyecto.",
     videos_card1_title: "Acerca del Producto",
-    videos_card2_title: "Acerca del Equipo",
+    videos_card2_title: "El Equipo",
     video_product_aria: "Reproductor del video del producto CryoVigil",
     video_team_aria: "Reproductor del video del equipo CryoVigil",
     videos_unavailable: "Video próximamente. La grabación se agregará aquí.",
     team_video_badge: "Conócenos",
-    team_video_title: "Sobre el Equipo",
+    team_video_title: "El Equipo",
     team_video_subtitle: "Conozca más de cerca a las personas detrás de CryoVigil.",
 
     // Team Section
