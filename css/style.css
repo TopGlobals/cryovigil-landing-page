@@ -452,6 +452,40 @@ svg {
   aspect-ratio: 16 / 9;
 }
 
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.content-visual {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.team-member-photo {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.pricing-card-popular {
+  padding-top: 3.25rem;
+}
+
+.pricing-badge-wrap {
+  position: absolute;
+  top: 0.85rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pricing-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
 .border {
   border: 1px solid var(--slate-200);
 }
