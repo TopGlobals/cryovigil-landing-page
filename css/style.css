@@ -484,6 +484,7 @@ video {
   align-items: center;
   justify-content: center;
   white-space: nowrap;
+  margin-right: 0.35rem;
 }
 
 .border {
@@ -1318,6 +1319,10 @@ video {
   border-left: 3px solid var(--brand-200);
   border-radius: 0.75rem;
   background: linear-gradient(90deg, rgb(236 253 245 / 38%), transparent);
+}
+
+.legal-page .legal-section {
+  margin-top: 0.5rem;
 }
 
 .legal-page article section h2 {
