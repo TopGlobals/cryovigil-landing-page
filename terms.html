@@ -20,15 +20,14 @@
         <nav class="hidden xl:flex items-center gap-6 text-sm font-medium text-slate-600" aria-label="Main navigation">
           <a class="hover:text-brand-600 transition-colors" href="index.html#features" data-i18n="nav_features">Features</a>
           <a class="hover:text-brand-600 transition-colors" href="index.html#target-audience" data-i18n="nav_target_audience">Target Audience</a>
-          <a class="hover:text-brand-600 transition-colors" href="index.html#videos" data-i18n="nav_videos">Videos</a>
           <a class="hover:text-brand-600 transition-colors" href="index.html#pricing" data-i18n="nav_pricing">Pricing</a>
           <a class="hover:text-brand-600 transition-colors" href="index.html#about-us" data-i18n="nav_about_us">About Us</a>
           <a class="hover:text-brand-600 transition-colors" href="index.html#contact" data-i18n="nav_contact">Contact</a>
         </nav>
         <div class="flex items-center gap-4">
           <div class="hidden md:flex items-center gap-2">
-            <a class="px-3 py-2 text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors" href="https://web-app-tst.web.app/login" data-i18n="nav_sign_in">Sign In</a>
-            <a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-500 text-white text-sm font-medium hover:bg-brand-600 transition-colors" href="https://web-app-tst.web.app" data-i18n="nav_sign_up">Sign Up</a>
+            <a class="px-3 py-2 text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors" href="https://web-app-tst.web.app/sign-in" data-i18n="nav_sign_in">Sign In</a>
+            <a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-500 text-white text-sm font-medium hover:bg-brand-600 transition-colors" href="https://web-app-tst.web.app/sign-up" data-i18n="nav_sign_up">Sign Up</a>
           </div>
           <div aria-label="Choose language" data-i18n-aria-label="nav_lang_aria" class="language-switcher" role="group">
             <button aria-pressed="true" class="language-option" data-language="en_US" type="button">EN</button>
@@ -44,13 +43,12 @@
       <div class="hidden xl:hidden border-b border-slate-200 bg-white px-4 pt-2 pb-6 space-y-3" id="mobile-menu">
         <a class="block py-2 text-slate-600 font-medium" href="index.html#features" data-i18n="nav_features">Features</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#target-audience" data-i18n="nav_target_audience">Target Audience</a>
-        <a class="block py-2 text-slate-600 font-medium" href="index.html#videos" data-i18n="nav_videos">Videos</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#pricing" data-i18n="nav_pricing">Pricing</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#about-us" data-i18n="nav_about_us">About Us</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#contact" data-i18n="nav_contact">Contact</a>
         <div class="flex gap-3 border-t border-slate-100 pt-4">
-          <a class="flex-1 text-center py-2 rounded-lg border border-slate-200 text-slate-700 font-medium" href="https://web-app-tst.web.app/login" data-i18n="nav_sign_in">Sign In</a>
-          <a class="flex-1 text-center py-2 rounded-lg bg-brand-500 text-white font-medium" href="https://web-app-tst.web.app" data-i18n="nav_sign_up">Sign Up</a>
+          <a class="flex-1 text-center py-2 rounded-lg border border-slate-200 text-slate-700 font-medium" href="https://web-app-tst.web.app/sign-in" data-i18n="nav_sign_in">Sign In</a>
+          <a class="flex-1 text-center py-2 rounded-lg bg-brand-500 text-white font-medium" href="https://web-app-tst.web.app/sign-up" data-i18n="nav_sign_up">Sign Up</a>
         </div>
       </div>
     </header>
@@ -119,24 +117,73 @@
         </section>
       </article>
     </main>
-    <footer class="bg-white border-t border-slate-100 pt-10 pb-8" id="contact">
+    <footer class="bg-white border-t border-slate-100 pt-16 pb-12" data-purpose="page-footer" id="contact">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col sm:flex-row justify-between gap-6">
-          <div>
-            <a class="text-xl font-bold tracking-tight text-slate-900" href="index.html">CryoVigil</a>
-            <p class="text-xs text-slate-500 max-w-sm mt-2" data-i18n="footer_tagline">Precision in every analysis. Protecting the future of scientific research through intelligent cold-chain monitoring.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 pb-12">
+          <div class="lg:col-span-2 space-y-4">
+            <a class="flex items-center gap-2" href="index.html">
+              <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center text-white">
+                <svg class="w-4 h-4 stroke-current fill-none stroke-[2.2]" viewbox="0 0 24 24">
+                  <path d="M12 2v20m0-20l4 4m-4-4L8 6m4 16l4-4m-4 4l-4-4m-8-6h20m-20 0l4-4m-4 4l4 4m16-4l-4-4m4 4l-4 4" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <span class="text-xl font-bold tracking-tight text-slate-900">CryoVigil</span>
+            </a>
+            <p class="text-xs text-slate-500 max-w-sm leading-relaxed" data-i18n="footer_tagline">Precision in every analysis. Protecting the future of scientific research through intelligent cold-chain monitoring.</p>
+            <div class="flex items-center gap-3 pt-2 text-slate-400">
+              <a aria-label="Share on X" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="https://x.com/intent/post" data-share="x" target="_blank" rel="noopener noreferrer">
+                <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg>
+              </a>
+              <a aria-label="Share on LinkedIn" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="https://www.linkedin.com/sharing/share-offsite/" data-share="linkedin" target="_blank" rel="noopener noreferrer">
+                <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a aria-label="CryoVigil website" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="index.html">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path></svg>
+              </a>
+              <a aria-label="Email CryoVigil" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="mailto:hello@cryovigil.com">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="m22 7-10 6L2 7"></path></svg>
+              </a>
+            </div>
           </div>
-          <nav class="flex flex-wrap gap-x-6 gap-y-2 text-xs text-slate-500" aria-label="Footer navigation">
-            <a class="hover:text-brand-600" href="index.html#features" data-i18n="footer_link_features">Features</a>
-            <a class="hover:text-brand-600" href="index.html#pricing" data-i18n="footer_link_pricing">Pricing</a>
-            <a class="hover:text-brand-600" href="index.html#about-us" data-i18n="footer_link_our_team">Our Team</a>
-            <a class="hover:text-brand-600" href="privacy.html" data-i18n="footer_link_privacy">Privacy Policy</a>
-            <a class="hover:text-brand-600" href="mailto:hello@cryovigil.com" data-i18n="footer_bottom_contact">Contact: hello@cryovigil.com</a>
-          </nav>
+          <div>
+            <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4" data-i18n="footer_col_product">Product</h4>
+            <ul class="space-y-2.5 text-xs text-slate-500">
+              <li><a class="hover:text-slate-900 transition-colors" href="index.html#features" data-i18n="footer_link_features">Features</a></li>
+              <li><a class="hover:text-slate-900 transition-colors" href="index.html#pricing" data-i18n="footer_link_pricing">Pricing</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4" data-i18n="footer_col_company">Company</h4>
+            <ul class="space-y-2.5 text-xs text-slate-500">
+              <li><a class="hover:text-slate-900 transition-colors" href="index.html#about-us" data-i18n="footer_link_about_us">About Us</a></li>
+              <li><a class="hover:text-slate-900 transition-colors" href="index.html#about-us" data-i18n="footer_link_our_team">Our Team</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4" data-i18n="footer_col_support">Support</h4>
+            <ul class="space-y-2.5 text-xs text-slate-500">
+              <li><a class="hover:text-slate-900 transition-colors" href="mailto:hello@cryovigil.com" data-i18n="footer_link_contact_us">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4" data-i18n="footer_col_legal">Legal &amp; Ethics</h4>
+            <ul class="space-y-2.5 text-xs text-slate-500">
+              <li><a class="hover:text-slate-900 transition-colors" href="terms.html" data-i18n="footer_link_terms">Terms and Conditions</a></li>
+              <li><a class="hover:text-slate-900 transition-colors" href="privacy.html" data-i18n="footer_link_privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
         </div>
-        <p class="pt-6 mt-6 border-t border-slate-100 text-xs text-slate-400" data-i18n="footer_copyright">© 2026 CryoVigil Technologies, Inc. All rights reserved.</p>
+        <div class="p-4 rounded-xl bg-brand-50/60 border border-brand-100 mb-8">
+          <h5 class="text-xs font-bold text-brand-900 mb-1" data-i18n="footer_ethics_title">Ethics &amp; Responsibility Statement</h5>
+          <p class="text-[11px] text-brand-800/80 leading-relaxed" data-i18n="footer_ethics_desc">CryoVigil is committed to responsible technology development in accordance with the ACM Code of Ethics, IEEE Code of Ethics, and CIP (Critical Infrastructure Protection) principles. Our platform is designed to support scientific integrity, patient safety, and environmental stewardship. We do not sell user data, comply fully with GDPR and HIPAA, and conduct annual third-party security audits.</p>
+        </div>
+        <div class="pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+          <p data-i18n="footer_copyright">© 2026 CryoVigil Technologies, Inc. All rights reserved.</p>
+          <div class="flex items-center gap-6">
+            <a class="hover:text-slate-600 transition-colors" href="mailto:hello@cryovigil.com" data-i18n="footer_bottom_contact">Contact: hello@cryovigil.com</a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
 </html>
-
