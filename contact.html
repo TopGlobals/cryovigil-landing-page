@@ -11,7 +11,7 @@
     <script src="js/main.js" defer></script>
 </head>
 <body class="legal-page flex flex-col min-h-screen text-slate-800">
-<!-- HEADER (Idéntico a terms.html) -->
+<!-- HEADER -->
 <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <a aria-label="CryoVigil Home" data-i18n-aria-label="nav_logo_aria" class="flex items-center gap-2.5 focus:outline-none" href="index.html">
@@ -21,14 +21,15 @@
         <nav class="hidden xl:flex items-center gap-6 text-sm font-medium text-slate-600" aria-label="Main navigation">
             <a class="hover:text-brand-600 transition-colors" href="index.html#features" data-i18n="nav_features">Features</a>
             <a class="hover:text-brand-600 transition-colors" href="index.html#target-audience" data-i18n="nav_target_audience">Target Audience</a>
+            <a class="hover:text-brand-600 transition-colors" href="index.html#videos" data-i18n="nav_videos">Videos</a>
             <a class="hover:text-brand-600 transition-colors" href="index.html#pricing" data-i18n="nav_pricing">Pricing</a>
             <a class="hover:text-brand-600 transition-colors" href="index.html#about-us" data-i18n="nav_about_us">About Us</a>
             <a class="text-brand-600 font-semibold transition-colors" href="contact.html" data-i18n="nav_contact">Contact</a>
         </nav>
         <div class="flex items-center gap-4">
             <div class="hidden md:flex items-center gap-2">
-                <a class="px-3 py-2 text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors" href="https://web-app-tst.web.app/sign-in" data-i18n="nav_sign_in">Sign In</a>
-                <a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-500 text-white text-sm font-medium hover:bg-brand-600 transition-colors" href="https://web-app-tst.web.app/sign-up" data-i18n="nav_sign_up">Sign Up</a>
+                <a class="px-3 py-2 text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors" href="https://web-app-tst.web.app/login" data-i18n="nav_sign_in">Sign In</a>
+                <a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-500 text-white text-sm font-medium hover:bg-brand-600 transition-colors" href="https://web-app-tst.web.app" data-i18n="nav_sign_up">Sign Up</a>
             </div>
             <div aria-label="Choose language" data-i18n-aria-label="nav_lang_aria" class="language-switcher" role="group">
                 <button aria-pressed="true" class="language-option" data-language="en_US" type="button">EN</button>
@@ -44,17 +45,18 @@
     <div class="hidden xl:hidden border-b border-slate-200 bg-white px-4 pt-2 pb-6 space-y-3" id="mobile-menu">
         <a class="block py-2 text-slate-600 font-medium" href="index.html#features" data-i18n="nav_features">Features</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#target-audience" data-i18n="nav_target_audience">Target Audience</a>
+        <a class="block py-2 text-slate-600 font-medium" href="index.html#videos" data-i18n="nav_videos">Videos</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#pricing" data-i18n="nav_pricing">Pricing</a>
         <a class="block py-2 text-slate-600 font-medium" href="index.html#about-us" data-i18n="nav_about_us">About Us</a>
         <a class="block py-2 text-brand-600 font-semibold" href="contact.html" data-i18n="nav_contact">Contact</a>
         <div class="flex gap-3 border-t border-slate-100 pt-4">
-            <a class="flex-1 text-center py-2 rounded-lg border border-slate-200 text-slate-700 font-medium" href="https://web-app-tst.web.app/sign-in" data-i18n="nav_sign_in">Sign In</a>
-            <a class="flex-1 text-center py-2 rounded-lg bg-brand-500 text-white font-medium" href="https://web-app-tst.web.app/sign-up" data-i18n="nav_sign_up">Sign Up</a>
+            <a class="flex-1 text-center py-2 rounded-lg border border-slate-200 text-slate-700 font-medium" href="https://web-app-tst.web.app/login" data-i18n="nav_sign_in">Sign In</a>
+            <a class="flex-1 text-center py-2 rounded-lg bg-brand-500 text-white font-medium" href="https://web-app-tst.web.app" data-i18n="nav_sign_up">Sign Up</a>
         </div>
     </div>
 </header>
 
-<!-- MAIN CONTENT (Misma estructura de tarjeta blanca de terms.html) -->
+<!-- MAIN CONTENT -->
 <main class="flex-grow max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
     <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 space-y-8 shadow-soft">
         <header class="pb-6 border-b border-slate-100">
@@ -66,7 +68,7 @@
         </header>
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-            <!-- Formulario simple (7 columnas) -->
+            <!-- Formulario simple -->
             <div class="lg:col-span-7">
                 <form id="contact-form" class="space-y-5">
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -80,6 +82,7 @@
                                     name="name"
                                     required
                                     placeholder="Dr. Jane Doe"
+                                    data-i18n-placeholder="contact_placeholder_name"
                                     class="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition-all"
                             />
                         </div>
@@ -94,6 +97,7 @@
                                     name="email"
                                     required
                                     placeholder="jane@laboratory.org"
+                                    data-i18n-placeholder="contact_placeholder_email"
                                     class="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition-all"
                             />
                         </div>
@@ -125,6 +129,7 @@
                                 rows="4"
                                 required
                                 placeholder="Tell us about your laboratory or cold-storage monitoring needs..."
+                                data-i18n-placeholder="contact_placeholder_message"
                                 class="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition-all resize-none"
                         ></textarea>
                     </div>
@@ -132,9 +137,8 @@
                     <button
                             type="submit"
                             class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-brand-500 text-white text-sm font-semibold hover:bg-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500/40 transition-all cursor-pointer"
-                            data-i18n="contact_btn_submit"
                     >
-                        <span>Send Message</span>
+                        <span data-i18n="contact_btn_submit">Send Message</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
@@ -157,7 +161,7 @@
                 </form>
             </div>
 
-            <!-- Información directa de contacto (5 columnas) -->
+            <!-- Información directa de contacto -->
             <aside class="lg:col-span-5 space-y-6 lg:border-l lg:border-slate-100 lg:pl-8">
                 <div class="p-5 rounded-xl bg-slate-50/80 border border-slate-100 space-y-4">
                     <h2 class="text-sm font-bold text-slate-900 uppercase tracking-wider" data-i18n="contact_info_title">
@@ -194,7 +198,7 @@
 
                 <div class="p-5 rounded-xl bg-brand-50/50 border border-brand-100 space-y-2">
                     <h3 class="text-xs font-bold text-brand-900" data-i18n="contact_privacy_note_title">Data Confidentiality</h3>
-                    <p class="text-[11px] text-brand-800/80 leading-relaxed" data-i18n="contact_privacy_note_desc">
+                    <p class="text-[11px] text-brand-800/80 leading-relaxed" data-i18n="contact_privacy_note_desc" data-i18n-html="true">
                         Your contact information is used exclusively to respond to your inquiry in accordance with our <a href="privacy.html" class="underline font-medium">Privacy Policy</a>.
                     </p>
                 </div>
@@ -203,7 +207,7 @@
     </article>
 </main>
 
-<!-- FOOTER (Idéntico a terms.html) -->
+<!-- FOOTER -->
 <footer class="bg-white border-t border-slate-100 pt-16 pb-12" data-purpose="page-footer" id="contact">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 pb-12">
@@ -267,7 +271,8 @@
         <div class="pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
             <p data-i18n="footer_copyright">© 2026 CryoVigil Technologies, Inc. All rights reserved.</p>
             <div class="flex items-center gap-6">
-                <a class="hover:text-slate-600 transition-colors" href="mailto:hello@cryovigil.com" data-i18n="footer_bottom_contact">Contact: hello@cryovigil.com</a>
+                <a class="hover:text-slate-600 transition-colors" href="terms.html" data-i18n="footer_bottom_terms">Terms of Service</a>
+                <a class="hover:text-slate-600 transition-colors" href="contact.html" data-i18n="footer_bottom_contact">Contact: hello@cryovigil.com</a>
             </div>
         </div>
     </div>
