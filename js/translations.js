@@ -160,12 +160,12 @@ const translations = {
     videos_title: "Watch and Learn",
     videos_subtitle: "Get a closer look at CryoVigil and the people behind it.",
     videos_card1_title: "About the Product",
-    videos_card2_title: "The Team",
+    videos_card2_title: "About The Team",
     video_product_aria: "CryoVigil product video player",
     video_team_aria: "CryoVigil team video player",
     videos_unavailable: "Video coming soon. A recording will be added here.",
     team_video_badge: "Meet Us",
-    team_video_title: "The Team",
+    team_video_title: "About The Team",
     team_video_subtitle: "Get a closer look at the people behind CryoVigil.",
 
     // Team Section
@@ -463,12 +463,12 @@ const translations = {
     videos_subtitle:
       "Conozca más de cerca CryoVigil y al equipo detrás del proyecto.",
     videos_card1_title: "Acerca del Producto",
-    videos_card2_title: "El Equipo",
+    videos_card2_title: "Sobre el Equipo",
     video_product_aria: "Reproductor del video del producto CryoVigil",
     video_team_aria: "Reproductor del video del equipo CryoVigil",
     videos_unavailable: "Video próximamente. La grabación se agregará aquí.",
     team_video_badge: "Conócenos",
-    team_video_title: "El Equipo",
+    team_video_title: "Sobre el Equipo",
     team_video_subtitle: "Conozca más de cerca a las personas detrás de CryoVigil.",
 
     // Team Section
