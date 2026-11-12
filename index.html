@@ -73,6 +73,12 @@
           >
           <a
             class="hover:text-brand-600 transition-colors"
+            href="#videos"
+            data-i18n="nav_videos"
+            >Videos</a
+          >
+          <a
+            class="hover:text-brand-600 transition-colors"
             href="#pricing"
             data-i18n="nav_pricing"
             >Pricing</a
@@ -95,13 +101,13 @@
           <div class="hidden md:flex items-center gap-2">
             <a
               class="px-3 py-2 text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors"
-              href="https://web-app-tst.web.app/sign-in"
+              href="https://web-app-tst.web.app/login"
               data-i18n="nav_sign_in"
               >Sign In</a
             >
             <a
               class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-brand-500 text-white text-sm font-medium hover:bg-brand-600 transition-colors"
-              href="https://web-app-tst.web.app/sign-up"
+              href="https://web-app-tst.web.app"
               data-i18n="nav_sign_up"
               >Sign Up</a
             >
@@ -174,6 +180,12 @@
         >
         <a
           class="block py-2 text-slate-600 font-medium"
+          href="#videos"
+          data-i18n="nav_videos"
+          >Videos</a
+        >
+        <a
+          class="block py-2 text-slate-600 font-medium"
           href="#pricing"
           data-i18n="nav_pricing"
           >Pricing</a
@@ -193,13 +205,13 @@
         <div class="flex gap-3 border-t border-slate-100 pt-4">
           <a
             class="flex-1 text-center py-2 rounded-lg border border-slate-200 text-slate-700 font-medium"
-            href="https://web-app-tst.web.app/sign-in"
+            href="https://web-app-tst.web.app/login"
             data-i18n="nav_sign_in"
             >Sign In</a
           >
           <a
             class="flex-1 text-center py-2 rounded-lg bg-brand-500 text-white font-medium"
-            href="https://web-app-tst.web.app/sign-up"
+            href="https://web-app-tst.web.app"
             data-i18n="nav_sign_up"
             >Sign Up</a
           >
@@ -259,7 +271,7 @@
                 src="assets/img/lab_details.jpeg"
                 alt="Laboratory monitoring dashboard"
                 data-i18n-alt="hero_img_alt"
-                class="content-visual w-full max-w-[760px] rounded-xl border border-slate-200 bg-white p-2 shadow-mockup"
+                class="w-full max-w-[760px] rounded-xl border border-slate-200 bg-white p-2 shadow-mockup"
               />
             </div>
             </div>
@@ -714,7 +726,7 @@
                 src="assets/img/dashboard_overview.jpeg"
                 alt="Dashboard overview"
                 data-i18n-alt="integration_img_alt"
-                class="content-visual w-full max-w-[640px] rounded-2xl border border-slate-200/90 bg-white p-2 shadow-mockup"
+                class="w-full max-w-[640px] rounded-2xl border border-slate-200/90 bg-white p-2 shadow-mockup"
               />
             </div>
             <!-- Feature Description Points -->
@@ -926,7 +938,7 @@
                 src="assets/img/logs_image.png"
                 alt="Compliance audit and logs overview"
                 data-i18n-alt="compliance_img_alt"
-                class="content-visual w-full max-w-[640px] rounded-xl border border-slate-200 bg-white p-2 shadow-mockup"
+                class="w-full max-w-[640px] rounded-xl border border-slate-200 bg-white p-2 shadow-mockup"
               />
             </div>
           </div>
@@ -941,8 +953,8 @@
       >
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <!-- Explanatory text -->
-            <div class="lg:col-span-6 text-left order-2 lg:order-2">
+            <!-- Texto explicativo a la izquierda -->
+            <div class="lg:col-span-5 text-left">
               <span class="badge-pill mb-3 inline-block" data-i18n="videos_badge"
               >See It In Action</span
               >
@@ -974,13 +986,13 @@
               </div>
             </div>
 
-            <!-- Video -->
-            <div class="lg:col-span-6 order-1 lg:order-1">
+            <!-- Video a la derecha -->
+            <div class="lg:col-span-7">
               <div
                       class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-xl"
               >
                 <video
-                        class="content-visual w-full object-cover"
+                        class="w-full aspect-video object-cover"
                         controls
                         preload="none"
                         poster="assets/img/dashboard_overview.jpeg"
@@ -1047,10 +1059,8 @@
                     Standard
                   </h3>
                   <div class="flex items-baseline justify-center gap-1">
-                    <span
-                      class="text-4xl font-extrabold text-slate-900"
-                      data-i18n="pricing_plan1_price"
-                    >$299</span
+                    <span class="text-4xl font-extrabold text-slate-900"
+                    >$399</span
                     >
                     <span
                             class="text-sm font-semibold text-slate-500"
@@ -1109,11 +1119,11 @@
 
             <!-- 2. Professional Plan (PLAN INTERMEDIO) -->
             <div
-                    class="pricing-card-popular bg-navy-900 text-white p-8 rounded-2xl border border-navy-800 shadow-xl flex flex-col justify-between relative overflow-hidden"
+                    class="bg-navy-900 text-white p-8 rounded-2xl border border-navy-800 shadow-xl flex flex-col justify-between relative overflow-hidden"
             >
-              <div class="pricing-badge-wrap">
+              <div class="absolute top-4 right-4">
                 <span
-                        class="pricing-badge px-3 py-1 rounded-full text-[10px] font-bold bg-brand-500/20 text-brand-300 border border-brand-500/30 tracking-wider uppercase"
+                        class="px-3 py-1 rounded-full text-[10px] font-bold bg-brand-500/20 text-brand-300 border border-brand-500/30 tracking-wider uppercase"
                         data-i18n="pricing_plan2_badge"
                 >
                   Most Popular
@@ -1133,10 +1143,7 @@
                     Professional
                   </h3>
                   <div class="flex items-baseline justify-center gap-1">
-                    <span
-                      class="text-4xl font-extrabold text-white"
-                      data-i18n="pricing_plan2_price"
-                    >$799</span>
+                    <span class="text-4xl font-extrabold text-white">$799</span>
                     <span
                             class="text-sm font-semibold text-slate-400"
                             data-i18n="pricing_plan2_period"
@@ -1214,11 +1221,6 @@
                             class="text-4xl font-extrabold text-slate-900"
                             data-i18n="pricing_plan3_price"
                     >Custom</span
-                    >
-                    <span
-                            class="text-sm font-semibold text-slate-500"
-                            data-i18n="pricing_plan3_period"
-                    >/mo</span
                     >
                   </div>
                   <p
@@ -1304,7 +1306,7 @@
           <!-- Team Members Grid -->
           <div
                   aria-label="Team members"
-                  class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mobile-carousel"
+                  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center mobile-carousel"
                   role="region"
                   tabindex="0"
           >
@@ -1316,7 +1318,7 @@
                       class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                        class="team-member-photo w-full h-full object-cover"
+                        class="w-full h-full object-cover"
                         src="assets/img/member1.png"
                         alt="Jean Niels Arizabal Condori"
                 />
@@ -1350,7 +1352,7 @@
                       class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                        class="team-member-photo w-full h-full object-cover"
+                        class="w-full h-full object-cover"
                         src="assets/img/member2.jpeg"
                         alt="Tomas Homola"
                 />
@@ -1375,6 +1377,72 @@
                 requirements management, and UI design.
               </p>
             </div>
+            <!-- Team Member 3 -->
+            <div
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+            >
+              <div
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+              >
+                <img
+                        class="w-full h-full object-cover"
+                        src="assets/img/member3.jpg"
+                        alt="Franco Orlando Linares Rodriguez"
+                />
+              </div>
+              <h3
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member3_name"
+              >
+                Linares Rodriguez,
+              </h3>
+              <p
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member3_first"
+              >
+                Franco Orlando
+              </p>
+              <p
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member3_desc"
+              >
+                Passionate Software Engineering student skilled in C++, web
+                development, and SQL database management.
+              </p>
+            </div>
+            <!-- Team Member 4 -->
+            <div
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+            >
+              <div
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+              >
+                <img
+                        class="w-full h-full object-cover"
+                        src="assets/img/member4.jpeg"
+                        alt="Mauricio Jared Padilla Merino"
+                />
+              </div>
+              <h3
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member4_name"
+              >
+                Padilla Merino,
+              </h3>
+              <p
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member4_first"
+              >
+                Mauricio Jared
+              </p>
+              <p
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member4_desc"
+              >
+                Adaptable team leader focused on project scope organization and
+                efficient task delegation.
+              </p>
+            </div>
             <!-- Team Member 5 -->
             <div
                     class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
@@ -1383,7 +1451,7 @@
                       class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                        class="team-member-photo w-full h-full object-cover"
+                        class="w-full h-full object-cover"
                         src="assets/img/member5.jpeg"
                         alt="Joaquin Leonardo Reyes Munoz"
                 />
@@ -1413,54 +1481,54 @@
       </section>
       <!-- END: TeamSection -->
       <!-- BEGIN: TeamVideoSection -->
-      <section
-        class="py-20 bg-slate-50/50"
-        data-purpose="team-video-demonstration"
-      >
+      <section class="py-20 bg-slate-50/50" data-purpose="team-video-demonstration">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <!-- Explanatory text -->
-            <div class="lg:col-span-6 text-left">
+            <!-- Video a la izquierda -->
+            <div class="lg:col-span-7 order-2 lg:order-1">
+              <div
+                      class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-xl"
+              >
+                <video
+                        class="w-full aspect-video object-cover"
+                        controls
+                        preload="none"
+                        poster="assets/img/member1.png"
+                        aria-label="CryoVigil team video player"
+                        data-i18n-aria-label="video_team_aria"
+                ></video>
+              </div>
+            </div>
+            <!-- Texto explicativo a la derecha -->
+            <div class="lg:col-span-5 text-left order-1 lg:order-2">
               <span class="badge-pill mb-3 inline-block" data-i18n="team_video_badge"
-                >Meet Us</span
+              >Meet Us</span
               >
               <h2
-                class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
-                data-i18n="team_video_title"
+                      class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
+                      data-i18n="team_video_title"
               >
-                The Team
+                About the Team
               </h2>
               <p
-                class="text-slate-600 mb-6 text-base leading-relaxed"
-                data-i18n="team_video_subtitle"
+                      class="text-slate-600 mb-6 text-base leading-relaxed"
+                      data-i18n="team_video_subtitle"
               >
-                Get a closer look at the people behind CryoVigil.
+                Get a closer look at the people behind CryoVigil. Learn more about our mission, core values, and dedication to biomedical safety.
               </p>
               <div class="p-4 rounded-xl bg-white border border-slate-100 shadow-sm">
                 <h3
-                  class="text-base font-bold text-slate-900 mb-1"
-                  data-i18n="videos_card2_title"
+                        class="text-base font-bold text-slate-900 mb-1"
+                        data-i18n="videos_card2_title"
                 >
-                  The Team
+                  About the Team
                 </h3>
-                <p class="text-xs text-slate-500" data-i18n="videos_unavailable">
+                <p
+                        class="text-xs text-slate-500"
+                        data-i18n="videos_unavailable"
+                >
                   Video coming soon. A recording will be added here.
                 </p>
-              </div>
-            </div>
-            <!-- Video -->
-            <div class="lg:col-span-6">
-              <div
-                class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-xl"
-              >
-                <video
-                  class="w-full aspect-video object-cover"
-                  controls
-                  preload="none"
-                  poster="assets/img/member1.png"
-                  aria-label="CryoVigil team video player"
-                  data-i18n-aria-label="video_team_aria"
-                ></video>
               </div>
             </div>
           </div>
@@ -1624,8 +1692,8 @@
             </div>
           </div>
         </div>
-        <!-- Trusted labs proof -->
-        <div class="mt-16 pt-10 border-t border-slate-100 text-center">
+        <!-- Trusted Logos Bar -->
+        <div class="mt-20 pt-10 border-t border-slate-100 text-center">
           <p
                   class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-8"
                   data-i18n="hero_trusted"
@@ -1711,13 +1779,6 @@
               data-i18n="final_cta_trial"
             >
               Register Now
-            </a>
-            <a
-              class="inline-flex justify-center items-center px-8 py-3.5 rounded-lg bg-slate-800 text-slate-200 font-semibold hover:bg-slate-700 transition-colors border border-slate-700"
-              href="#features"
-              data-i18n="final_cta_features"
-            >
-              View Features
             </a>
           </div>
         </div>
@@ -1957,6 +2018,12 @@
             © 2026 CryoVigil Technologies, Inc. All rights reserved.
           </p>
           <div class="flex items-center gap-6">
+            <a
+              class="hover:text-slate-600 transition-colors"
+              href="terms.html"
+              data-i18n="footer_bottom_terms"
+              >Terms of Service</a
+            >
             <a
               class="hover:text-slate-600 transition-colors"
               href="mailto:hello@cryovigil.com"
