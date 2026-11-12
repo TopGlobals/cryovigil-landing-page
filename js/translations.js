@@ -596,7 +596,7 @@ const translations = {
     terms_section8_title: "8. Garantías y responsabilidad",
     terms_section9_title: "9. Uso ético y operación responsable",
     terms_section10_title: "10. Actualizaciones y contacto",
-  },
+    },
 };
 
 if (typeof window !== "undefined") {
