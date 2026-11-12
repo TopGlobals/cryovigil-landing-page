@@ -289,6 +289,38 @@ const translations = {
     terms_section8_title: "8. Warranties and liability",
     terms_section9_title: "9. Ethical use and responsible operation",
     terms_section10_title: "10. Updates and contact",
+
+    // Contact Page
+    contact_badge: "Get in Touch",
+    contact_title: "Contact Us",
+    contact_subtitle:
+        "Have questions about our IoT cold-chain monitoring platform, pricing, or enterprise deployments? Our team is here to help.",
+    contact_info_title: "Contact Information",
+    contact_email_label: "Email",
+    contact_hours_label: "Support Hours",
+    contact_hours_value: "Monday – Friday: 8:00 AM – 6:00 PM (PET / EST)",
+    contact_emergency_note:
+        "24/7 emergency hotline available for Enterprise clients.",
+    contact_location_label: "Location",
+    contact_location_value: "Lima, Peru · Serving laboratories worldwide",
+    contact_form_title: "Send Us a Message",
+    contact_form_name_label: "Full Name",
+    contact_form_name_placeholder: "Dr. Jane Doe",
+    contact_form_email_label: "Work Email",
+    contact_form_email_placeholder: "jane.doe@laboratory.org",
+    contact_form_org_label: "Laboratory / Organization",
+    contact_form_org_placeholder: "BioTech Research Institute",
+    contact_form_subject_label: "Inquiry Type",
+    contact_form_subject_demo: "Request a Product Demo",
+    contact_form_subject_sales: "Enterprise & Pricing Inquiry",
+    contact_form_subject_support: "Technical Support",
+    contact_form_subject_general: "General Question",
+    contact_form_message_label: "Message",
+    contact_form_message_placeholder:
+        "Tell us about your laboratory monitoring needs, number of freezers/sensors, or any questions you have...",
+    contact_form_submit: "Send Message",
+    contact_form_success:
+        "Thank you! Your message has been prepared. Our team will respond within 1 business day.",
   },
 
   es_419: {
@@ -596,6 +628,38 @@ const translations = {
     terms_section8_title: "8. Garantías y responsabilidad",
     terms_section9_title: "9. Uso ético y operación responsable",
     terms_section10_title: "10. Actualizaciones y contacto",
+
+    // Contact Page
+    contact_badge: "Contáctanos",
+    contact_title: "Ponte en Contacto",
+    contact_subtitle:
+        "¿Tienes preguntas sobre nuestra plataforma IoT de monitoreo de cadena de frío, precios o implementaciones empresariales? Nuestro equipo está listo para ayudarte.",
+    contact_info_title: "Información de Contacto",
+    contact_email_label: "Correo Electrónico",
+    contact_hours_label: "Horario de Atención",
+    contact_hours_value: "Lunes – Viernes: 8:00 AM – 6:00 PM (PET / EST)",
+    contact_emergency_note:
+        "Línea de emergencia 24/7 disponible para clientes Empresariales.",
+    contact_location_label: "Ubicación",
+    contact_location_value: "Lima, Perú · Atendiendo laboratorios en todo el mundo",
+    contact_form_title: "Envíanos un Mensaje",
+    contact_form_name_label: "Nombre Completo",
+    contact_form_name_placeholder: "Dra. María López",
+    contact_form_email_label: "Correo Institucional o Laboral",
+    contact_form_email_placeholder: "maria.lopez@laboratorio.org",
+    contact_form_org_label: "Laboratorio / Organización",
+    contact_form_org_placeholder: "Instituto de Investigación BioTech",
+    contact_form_subject_label: "Tipo de Consulta",
+    contact_form_subject_demo: "Solicitar una Demostración del Producto",
+    contact_form_subject_sales: "Consulta Empresarial y Precios",
+    contact_form_subject_support: "Soporte Técnico",
+    contact_form_subject_general: "Consulta General",
+    contact_form_message_label: "Mensaje",
+    contact_form_message_placeholder:
+        "Cuéntanos sobre las necesidades de monitoreo de tu laboratorio, cantidad de congeladores/sensores o cualquier duda que tengas...",
+    contact_form_submit: "Enviar Mensaje",
+    contact_form_success:
+        "¡Gracias! Tu mensaje ha sido registrado. Nuestro equipo responderá en menos de 1 día hábil.",
     },
 };
 
