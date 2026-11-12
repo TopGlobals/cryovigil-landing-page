@@ -1277,7 +1277,7 @@
       <!-- END: PricingSection -->
       <!-- BEGIN: TeamSection -->
       <section
-              class="py-20 bg-slate-50/50 mobile-carousel-section"
+              class="py-16 bg-slate-50/50 mobile-carousel-section"
               data-purpose="team-members"
               id="about-us"
       >
@@ -1290,7 +1290,7 @@
             Meet Our Team
           </h2>
           <p
-                  class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro"
+                  class="text-slate-600 max-w-xl mx-auto mb-12 text-sm sm:text-base mobile-section-intro"
                   data-i18n="team_subtitle"
           >
             A multidisciplinary team of scientists, engineers, and product
@@ -1303,19 +1303,21 @@
           >
             Swipe to meet the team <span aria-hidden="true">→</span>
           </p>
-          <!-- Team Members Grid -->
+
+          <!-- Team Members Grid (3 columnas anchas) -->
           <div
                   aria-label="Team members"
-                  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center mobile-carousel"
+                  class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mobile-carousel"
                   role="region"
                   tabindex="0"
           >
             <!-- Team Member 1 -->
             <div
-                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-8 sm:px-10 rounded-2xl border border-slate-100 shadow-soft flex flex-col items-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               <div
-                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-28 h-28 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center shrink-0"
+                      style="width: 112px; height: 112px; min-width: 112px; min-height: 112px;"
               >
                 <img
                         class="w-full h-full object-cover"
@@ -1324,19 +1326,19 @@
                 />
               </div>
               <h3
-                      class="text-sm font-bold text-slate-900 leading-tight"
+                      class="text-base font-bold text-slate-900 leading-tight"
                       data-i18n="team_member1_name"
               >
                 Arizabal Condori,
               </h3>
               <p
-                      class="text-xs font-bold text-slate-900 mb-2"
+                      class="text-sm font-semibold text-emerald-600 mb-3"
                       data-i18n="team_member1_first"
               >
                 Jean Niels
               </p>
               <p
-                      class="text-[11px] text-slate-500 leading-relaxed"
+                      class="text-xs sm:text-sm text-slate-500 leading-relaxed"
                       data-i18n="team_member1_desc"
               >
                 Software Engineering student focused on low-level programming,
@@ -1344,12 +1346,14 @@
                 systems.
               </p>
             </div>
+
             <!-- Team Member 2 -->
             <div
-                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-8 sm:px-10 rounded-2xl border border-slate-100 shadow-soft flex flex-col items-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               <div
-                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-28 h-28 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center shrink-0"
+                      style="width: 112px; height: 112px; min-width: 112px; min-height: 112px;"
               >
                 <img
                         class="w-full h-full object-cover"
@@ -1358,118 +1362,54 @@
                 />
               </div>
               <h3
-                      class="text-sm font-bold text-slate-900 leading-tight"
+                      class="text-base font-bold text-slate-900 leading-tight"
                       data-i18n="team_member2_name"
               >
                 Homola,
               </h3>
               <p
-                      class="text-xs font-bold text-slate-900 mb-2"
+                      class="text-sm font-semibold text-emerald-600 mb-3"
                       data-i18n="team_member2_first"
               >
                 Tomas
               </p>
               <p
-                      class="text-[11px] text-slate-500 leading-relaxed"
+                      class="text-xs sm:text-sm text-slate-500 leading-relaxed"
                       data-i18n="team_member2_desc"
               >
                 Exchange student specializing in AI-driven image recognition,
                 requirements management, and UI design.
               </p>
             </div>
-            <!-- Team Member 3 -->
+
+            <!-- Team Member 5 (Joaquin) -->
             <div
-                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-8 sm:px-10 rounded-2xl border border-slate-100 shadow-soft flex flex-col items-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               <div
-                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-28 h-28 mx-auto rounded-full bg-slate-200 ring-2 ring-slate-200/80 mb-4 overflow-hidden flex items-center justify-center shrink-0"
+                      style="width: 112px; height: 112px; min-width: 112px; min-height: 112px;"
               >
                 <img
-                        class="w-full h-full object-cover"
-                        src="assets/img/member3.jpg"
-                        alt="Franco Orlando Linares Rodriguez"
-                />
-              </div>
-              <h3
-                      class="text-sm font-bold text-slate-900 leading-tight"
-                      data-i18n="team_member3_name"
-              >
-                Linares Rodriguez,
-              </h3>
-              <p
-                      class="text-xs font-bold text-slate-900 mb-2"
-                      data-i18n="team_member3_first"
-              >
-                Franco Orlando
-              </p>
-              <p
-                      class="text-[11px] text-slate-500 leading-relaxed"
-                      data-i18n="team_member3_desc"
-              >
-                Passionate Software Engineering student skilled in C++, web
-                development, and SQL database management.
-              </p>
-            </div>
-            <!-- Team Member 4 -->
-            <div
-                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
-            >
-              <div
-                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
-              >
-                <img
-                        class="w-full h-full object-cover"
-                        src="assets/img/member4.jpeg"
-                        alt="Mauricio Jared Padilla Merino"
-                />
-              </div>
-              <h3
-                      class="text-sm font-bold text-slate-900 leading-tight"
-                      data-i18n="team_member4_name"
-              >
-                Padilla Merino,
-              </h3>
-              <p
-                      class="text-xs font-bold text-slate-900 mb-2"
-                      data-i18n="team_member4_first"
-              >
-                Mauricio Jared
-              </p>
-              <p
-                      class="text-[11px] text-slate-500 leading-relaxed"
-                      data-i18n="team_member4_desc"
-              >
-                Adaptable team leader focused on project scope organization and
-                efficient task delegation.
-              </p>
-            </div>
-            <!-- Team Member 5 -->
-            <div
-                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
-            >
-              <div
-                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
-              >
-                <img
-                        class="w-full h-full object-cover"
+                        class="w-full h-full object-cover object-top scale-125 contrast-105 brightness-95"
                         src="assets/img/member5.jpeg"
                         alt="Joaquin Leonardo Reyes Munoz"
                 />
               </div>
               <h3
-                      class="text-sm font-bold text-slate-900 leading-tight"
+                      class="text-base font-bold text-slate-900 leading-tight"
                       data-i18n="team_member5_name"
               >
                 Reyes Munoz,
               </h3>
               <p
-                      class="text-xs font-bold text-slate-900 mb-2"
+                      class="text-sm font-semibold text-emerald-600 mb-3"
                       data-i18n="team_member5_first"
               >
                 Joaquin Leonardo
               </p>
               <p
-                      class="text-[11px] text-slate-500 leading-relaxed"
+                      class="text-xs sm:text-sm text-slate-500 leading-relaxed"
                       data-i18n="team_member5_desc"
               >
                 Patient and dedicated developer driven by continuous learning,
