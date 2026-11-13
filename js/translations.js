@@ -99,7 +99,7 @@ const translations = {
     integration_item3_title: "API & LIMS Integration",
     integration_item3_desc:
       "Connect to your existing systems via open REST API",
-    integration_cta: "Try It Now",
+    integration_cta: "Register Now",
 
     // Compliance Section
     compliance_badge: "Regulatory Confidence",
@@ -117,6 +117,7 @@ const translations = {
     pricing_title: "Simple, Transparent Pricing",
     pricing_subtitle: "No hidden fees. Scale as your lab grows.",
     pricing_swipe: 'Swipe to compare plans <span aria-hidden="true">→</span>',
+
     pricing_plan1_category: "Laboratory Monitoring",
     pricing_plan1_title: "Standard",
     pricing_plan1_price: "$299",
@@ -130,28 +131,41 @@ const translations = {
     pricing_plan1_cta: "Register Now",
 
     pricing_plan2_badge: "Most Popular",
-    pricing_plan2_category: "Multi-site Enterprise",
-    pricing_plan2_title: "Enterprise",
-    pricing_plan2_price: "Custom",
-    pricing_plan2_subtext: "Unlimited sensors, unlimited locations",
+    pricing_plan2_category: "Advanced Monitoring",
+    pricing_plan2_title: "Professional",
+    pricing_plan2_price: "$799",
+    pricing_plan2_period: "/mo",
+    pricing_plan2_subtext: "Up to 30 sensors, 3 locations",
     pricing_plan2_item1: "All Standard features included",
-    pricing_plan2_item2: "24/7 priority emergency hotline",
-    pricing_plan2_item3: "Annual calibration service",
-    pricing_plan2_item4: "Dedicated customer success manager",
-    pricing_plan2_item5: "Custom API & LIMS integrations",
-    pricing_plan2_cta: "Contact Sales",
+    pricing_plan2_item2: "Priority email & phone support",
+    pricing_plan2_item3: "Advanced predictive analytics",
+    pricing_plan2_item4: "Custom report generator",
+    pricing_plan2_item5: "Unlimited users & roles",
+    pricing_plan2_cta: "Register Now",
+
+    pricing_plan3_category: "Multi-site Enterprise",
+    pricing_plan3_title: "Enterprise",
+    pricing_plan3_price: "$1499",
+    pricing_plan3_period: "/mo",
+    pricing_plan3_subtext: "Unlimited sensors, unlimited locations",
+    pricing_plan3_item1: "All Professional features included",
+    pricing_plan3_item2: "24/7 priority emergency hotline",
+    pricing_plan3_item3: "Annual calibration service",
+    pricing_plan3_item4: "Dedicated customer success manager",
+    pricing_plan3_item5: "Custom API & LIMS integrations",
+    pricing_plan3_cta: "Contact Sales",
 
     // Video Section
     videos_badge: "See It In Action",
     videos_title: "Watch and Learn",
     videos_subtitle: "Get a closer look at CryoVigil and the people behind it.",
     videos_card1_title: "About the Product",
-    videos_card2_title: "About the Team",
+    videos_card2_title: "About The Team",
     video_product_aria: "CryoVigil product video player",
     video_team_aria: "CryoVigil team video player",
     videos_unavailable: "Video coming soon. A recording will be added here.",
     team_video_badge: "Meet Us",
-    team_video_title: "About the Team Video",
+    team_video_title: "About The Team",
     team_video_subtitle: "Get a closer look at the people behind CryoVigil.",
 
     // Team Section
@@ -248,6 +262,139 @@ const translations = {
       "© 2026 CryoVigil Technologies, Inc. All rights reserved.",
     footer_bottom_terms: "Terms of Service",
     footer_bottom_contact: "Contact: hello@cryovigil.com",
+
+    // Legal / static pages
+    legal_badge: "Legal",
+    last_updated: "Last updated: November 9, 2026",
+    privacy_title: "Privacy Policy",
+    privacy_section1_title: "Interpretation and Definitions",
+    privacy_section1_subtitle1: "Interpretation",
+    privacy_section1_subtitle2: "Definitions",
+    privacy_section2_title: "Collecting and Using Your Personal Information",
+    privacy_section2_subtitle1: "Types of Data Collected",
+    privacy_section2_subtitle2: "Personal Data",
+    privacy_use_heading: "Use of Your Personal Data",
+    privacy_section3_title: "Retention and Security of Your Personal Data",
+    privacy_section4_title: "Delete Your Personal Data",
+    privacy_section5_title: "Children's and Minors' Privacy",
+    privacy_section6_title: "Contact Us",
+    terms_title: "Terms and Conditions",
+    terms_section1_title: "1. Agreement and Service",
+    terms_section2_title: "2. Accounts and authorized use",
+    terms_section3_title: "3. Customer responsibilities and safety",
+    terms_section4_title: "4. Plans, fees, and changes",
+    terms_section5_title: "5. Customer data and privacy",
+    terms_section6_title: "6. Acceptable use and ownership",
+    terms_section7_title: "7. Availability, suspension, and termination",
+    terms_section8_title: "8. Warranties and liability",
+    terms_section9_title: "9. Ethical use and responsible operation",
+    terms_section10_title: "10. Updates and contact",
+
+    // Contact Page
+    contact_badge: "Get in Touch",
+    contact_title: "Contact Us",
+    contact_subtitle:
+        "Have questions about our IoT cold-chain monitoring platform, pricing, or enterprise deployments? Our team is here to help.",
+    contact_info_title: "Contact Information",
+    contact_email_label: "Email",
+    contact_hours_label: "Support Hours",
+    contact_hours_value: "Monday – Friday: 8:00 AM – 6:00 PM (PET / EST)",
+    contact_emergency_note:
+        "24/7 emergency hotline available for Enterprise clients.",
+    contact_location_label: "Location",
+    contact_location_value: "Lima, Peru · Serving laboratories worldwide",
+    contact_form_title: "Send Us a Message",
+    contact_form_name_label: "Full Name",
+    contact_form_name_placeholder: "Dr. Jane Doe",
+    contact_form_email_label: "Work Email",
+    contact_form_email_placeholder: "jane.doe@laboratory.org",
+    contact_form_org_label: "Laboratory / Organization",
+    contact_form_org_placeholder: "BioTech Research Institute",
+    contact_form_subject_label: "Inquiry Type",
+    contact_form_subject_demo: "Request a Product Demo",
+    contact_form_subject_sales: "Enterprise & Pricing Inquiry",
+    contact_form_subject_support: "Technical Support",
+    contact_form_subject_general: "General Question",
+    contact_form_message_label: "Message",
+    contact_form_message_placeholder:
+        "Tell us about your laboratory monitoring needs, number of freezers/sensors, or any questions you have...",
+    contact_form_submit: "Send Message",
+    contact_form_success:
+        "Thank you! Your message has been prepared. Our team will respond within 1 business day.",
+    privacy_intro_p1:
+        "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.",
+    privacy_intro_p2:
+        "We use Your Personal Data to provide and improve the Service. We collect, use, and disclose Your information as described in this Privacy Policy and, where required by applicable law, only where We have a valid legal basis to do so.",
+    privacy_s1_interp_p1:
+        "The words whose initial letters are capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
+    privacy_s1_def_intro: "For the purposes of this Privacy Policy:",
+    privacy_def_account:
+        "<strong>Account:</strong> means a unique account created for You to access Our Service.",
+    privacy_def_affiliate:
+        "<strong>Affiliate:</strong> means an entity that controls, is controlled by, or is under common control with a party (50%+ ownership).",
+    privacy_def_company:
+        '<strong>Company:</strong> (referred to as "We", "Us" or "Our") refers to CryoVigil.',
+    privacy_def_cookies:
+        "<strong>Cookies:</strong> are small files placed on Your computer or mobile device containing browsing details.",
+    privacy_def_country:
+        "<strong>Country/State:</strong> refers to Peru.",
+    privacy_def_device:
+        "<strong>Device:</strong> means any device that can access the Service, such as a computer, cell phone, or tablet.",
+    privacy_def_personal:
+        "<strong>Personal Data:</strong> is any information that relates to an identified or identifiable individual.",
+    privacy_def_service:
+        '<strong>Service:</strong> refers to the Website (<a class="text-brand-700 underline hover:text-brand-800" href="https://topglobals.github.io/cryovigil-landing-page/" target="_blank">https://topglobals.github.io/cryovigil-landing-page/</a>).',
+    privacy_def_provider:
+        "<strong>Service Provider:</strong> means third-party companies or individuals processing data on behalf of the Company.",
+    privacy_def_usage:
+        "<strong>Usage Data:</strong> refers to data collected automatically (e.g., duration of page visit, IP address).",
+    privacy_def_you:
+        "<strong>You:</strong> means the individual or legal entity accessing or using the Service.",
+    privacy_s2_personal_intro:
+        "Personally identifiable information may include, but is not limited to:",
+    privacy_s2_personal_item1: "Email address",
+    privacy_s2_personal_item2: "First name and last name",
+    privacy_s2_personal_item3: "Phone number",
+    privacy_s2_usage_title: "Usage Data",
+    privacy_s2_usage_p1:
+        "Usage Data is collected automatically when using the Service and may include IP addresses, browser types, visit times, unique device identifiers, and diagnostic data.",
+    privacy_s2_cookies_title: "Tracking Technologies and Cookies",
+    privacy_s2_cookies_p1:
+        "We use Cookies, Web Beacons, and similar tracking technologies to enhance user experience and analyze system integrity. We use Session and Persistent Cookies for Essential Services, Notice Acceptance, and Functionality preferences.",
+    privacy_s2_use_intro: "The company may use personal data to:",
+    privacy_s2_use_item1:
+        "Provide and maintain our Service, including monitoring usage.",
+    privacy_s2_use_item2:
+        "Manage your account registration and user access.",
+    privacy_s2_use_item3:
+        "Perform contract obligations for purchased products/services.",
+    privacy_s2_use_item4:
+        "Contact you via email, phone, or SMS regarding security updates or operational notifications.",
+    privacy_s2_use_item5:
+        "Provide news and special offers (where permitted by applicable law).",
+    privacy_s2_use_item6:
+        "Manage and attend to your customer support requests.",
+    privacy_s2_sms_title: "Text Messages Privacy Notice",
+    privacy_s2_sms_p1:
+        "If You opt in to receive text messages (SMS) from Us, we collect and store Your phone number and consent records. <strong>No mobile information will be shared with or sold to third parties or affiliates for marketing or promotional purposes.</strong> Reply <code>STOP</code> to opt out at any time.",
+    privacy_s3_intro:
+        "We retain your personal data only for as long as necessary to fulfill legal obligations and operational needs:",
+    privacy_s3_item1:
+        "<strong>User Accounts:</strong> Retained for the duration of the account plus up to 24 months post-closure.",
+    privacy_s3_item2:
+        "<strong>Customer Support &amp; Chats:</strong> Retained for up to 24 months for quality assurance.",
+    privacy_s3_item3:
+        "<strong>Website Analytics &amp; Logs:</strong> Retained for up to 24 months for troubleshooting and security.",
+    privacy_s3_p2:
+        "While we strive to protect your personal data using commercially reasonable controls, no method of transmission over the Internet or electronic storage is 100% secure.",
+    privacy_s4_p1:
+        "You have the right to request the deletion of your personal data. You may update, amend, or delete Your information by logging into Your Account settings or by contacting Us directly.",
+    privacy_s5_p1:
+        "Our service is not directed to anyone under the age of 16. If we discover that We have collected Personal Information from anyone under 16 without parental consent, We will take immediate steps to delete that information.",
+    privacy_s6_p1:
+        "If you have any questions about this Privacy Policy, You can contact Us:",
+    privacy_s6_item1:
+        'By email: <a class="text-brand-700 underline hover:text-brand-800 font-medium" href="mailto:hello@cryovigil.com">hello@cryovigil.com</a>',
   },
 
   es_419: {
@@ -358,7 +505,7 @@ const translations = {
     integration_item3_title: "Integración con API y LIMS",
     integration_item3_desc:
       "Conéctese a sus sistemas actuales mediante una API REST abierta",
-    integration_cta: "Pruébelo Ahora",
+    integration_cta: "Registrate ahora",
 
     // Compliance Section
     compliance_badge: "Confianza Regulatoria",
@@ -376,10 +523,9 @@ const translations = {
     // Pricing Section
     pricing_badge: "Precios Transparentes",
     pricing_title: "Precios Simples y Transparentes",
-    pricing_subtitle:
-      "Sin costos ocultos. Escale a medida que su laboratorio crezca.",
-    pricing_swipe:
-      'Desliza para comparar planes <span aria-hidden="true">→</span>',
+    pricing_subtitle: "Sin costos ocultos. Escale a medida que su laboratorio crezca.",
+    pricing_swipe: 'Desliza para comparar planes <span aria-hidden="true">→</span>',
+
     pricing_plan1_category: "Monitoreo de Laboratorio",
     pricing_plan1_title: "Estándar",
     pricing_plan1_price: "$299",
@@ -390,19 +536,32 @@ const translations = {
     pricing_plan1_item3: "Calibración multizona de sensores",
     pricing_plan1_item4: "Alertas por correo y SMS",
     pricing_plan1_item5: "Retención de datos por 7 años",
-    pricing_plan1_cta: "Registrate ahora",
+    pricing_plan1_cta: "Registrarse ahora",
 
     pricing_plan2_badge: "Más Popular",
-    pricing_plan2_category: "Empresarial Multisitio",
-    pricing_plan2_title: "Empresarial",
-    pricing_plan2_price: "A Medida",
-    pricing_plan2_subtext: "Sensores y sedes ilimitados",
+    pricing_plan2_category: "Monitoreo Avanzado",
+    pricing_plan2_title: "Profesional",
+    pricing_plan2_price: "$799",
+    pricing_plan2_period: "/mes",
+    pricing_plan2_subtext: "Hasta 30 sensores, 3 sedes",
     pricing_plan2_item1: "Todas las funciones Estándar incluidas",
-    pricing_plan2_item2: "Línea de emergencia prioritaria 24/7",
-    pricing_plan2_item3: "Servicio anual de calibración",
-    pricing_plan2_item4: "Gestor de éxito del cliente dedicado",
-    pricing_plan2_item5: "Integraciones a medida con API y LIMS",
-    pricing_plan2_cta: "Contactar a Ventas",
+    pricing_plan2_item2: "Soporte prioritario por correo y teléfono",
+    pricing_plan2_item3: "Análisis predictivo avanzado",
+    pricing_plan2_item4: "Generador de reportes personalizados",
+    pricing_plan2_item5: "Usuarios y roles ilimitados",
+    pricing_plan2_cta: "Registrarse ahora",
+
+    pricing_plan3_category: "Empresarial Multisitio",
+    pricing_plan3_title: "Empresarial",
+    pricing_plan3_price: "$1499",
+    pricing_plan3_period: "/mes",
+    pricing_plan3_subtext: "Sensores y sedes ilimitados",
+    pricing_plan3_item1: "Todas las funciones Profesional incluidas",
+    pricing_plan3_item2: "Línea de emergencia prioritaria 24/7",
+    pricing_plan3_item3: "Servicio anual de calibración",
+    pricing_plan3_item4: "Gestor de éxito del cliente dedicado",
+    pricing_plan3_item5: "Integraciones a medida con API y LIMS",
+    pricing_plan3_cta: "Contactar a Ventas",
 
     // Video Section
     videos_badge: "Véalo en Acción",
@@ -410,12 +569,12 @@ const translations = {
     videos_subtitle:
       "Conozca más de cerca CryoVigil y al equipo detrás del proyecto.",
     videos_card1_title: "Acerca del Producto",
-    videos_card2_title: "Acerca del Equipo",
+    videos_card2_title: "Sobre el Equipo",
     video_product_aria: "Reproductor del video del producto CryoVigil",
     video_team_aria: "Reproductor del video del equipo CryoVigil",
     videos_unavailable: "Video próximamente. La grabación se agregará aquí.",
     team_video_badge: "Conócenos",
-    team_video_title: "Video sobre el Equipo",
+    team_video_title: "Sobre el Equipo",
     team_video_subtitle: "Conozca más de cerca a las personas detrás de CryoVigil.",
 
     // Team Section
@@ -516,7 +675,140 @@ const translations = {
       "© 2026 CryoVigil Technologies, Inc. Todos los derechos reservados.",
     footer_bottom_terms: "Términos de Servicio",
     footer_bottom_contact: "Contacto: hello@cryovigil.com",
-  },
+
+    // Legal / static pages
+    legal_badge: "Legal",
+    last_updated: "Última actualización: 9 de noviembre de 2026",
+    privacy_title: "Política de Privacidad",
+    privacy_section1_title: "Interpretación y Definiciones",
+    privacy_section1_subtitle1: "Interpretación",
+    privacy_section1_subtitle2: "Definiciones",
+    privacy_section2_title: "Recopilación y Uso de su Información Personal",
+    privacy_section2_subtitle1: "Tipos de Datos Recopilados",
+    privacy_section2_subtitle2: "Datos Personales",
+    privacy_use_heading: "Uso de sus Datos Personales",
+    privacy_section3_title: "Retención y Seguridad de sus Datos Personales",
+    privacy_section4_title: "Elimine sus Datos Personales",
+    privacy_section5_title: "Privacidad de Niños y Menores",
+    privacy_section6_title: "Contáctenos",
+    terms_title: "Términos y Condiciones",
+    terms_section1_title: "1. Acuerdo y servicio",
+    terms_section2_title: "2. Cuentas y uso autorizado",
+    terms_section3_title: "3. Responsabilidades del cliente y seguridad",
+    terms_section4_title: "4. Planes, tarifas y cambios",
+    terms_section5_title: "5. Datos del cliente y privacidad",
+    terms_section6_title: "6. Uso aceptable y propiedad",
+    terms_section7_title: "7. Disponibilidad, suspensión y terminación",
+    terms_section8_title: "8. Garantías y responsabilidad",
+    terms_section9_title: "9. Uso ético y operación responsable",
+    terms_section10_title: "10. Actualizaciones y contacto",
+
+    // Contact Page
+    contact_badge: "Contáctanos",
+    contact_title: "Ponte en contacto",
+    contact_subtitle:
+        "¿Tienes preguntas sobre nuestra plataforma IoT de monitoreo de cadena de frío, precios o implementaciones empresariales? Nuestro equipo está listo para ayudarte.",
+    contact_info_title: "Información de contacto",
+    contact_email_label: "Correo electrónico",
+    contact_hours_label: "Horario de atención",
+    contact_hours_value: "Lunes – Viernes: 8:00 AM – 6:00 PM (PET / EST)",
+    contact_emergency_note:
+        "Línea de emergencia 24/7 disponible para clientes Empresariales.",
+    contact_location_label: "Ubicación",
+    contact_location_value: "Lima, Perú · Atendiendo laboratorios en todo el mundo",
+    contact_form_title: "Envíanos un mensaje",
+    contact_form_name_label: "Nombre completo",
+    contact_form_name_placeholder: "Dra. María López",
+    contact_form_email_label: "Correo Institucional o Laboral",
+    contact_form_email_placeholder: "maria.lopez@laboratorio.org",
+    contact_form_org_label: "Laboratorio / Organización",
+    contact_form_org_placeholder: "Instituto de investigación bioTech",
+    contact_form_subject_label: "Tipo de Consulta",
+    contact_form_subject_demo: "Solicitar una demostración del producto",
+    contact_form_subject_sales: "Consulta empresarial y precios",
+    contact_form_subject_support: "Soporte técnico",
+    contact_form_subject_general: "Consulta general",
+    contact_form_message_label: "Mensaje",
+    contact_form_message_placeholder:
+        "Cuéntanos sobre las necesidades de monitoreo de tu laboratorio, cantidad de congeladores/sensores o cualquier duda que tengas...",
+    contact_form_submit: "Enviar Mensaje",
+    contact_form_success:
+        "¡Gracias! Tu mensaje ha sido registrado. Nuestro equipo responderá en menos de 1 día hábil.",
+    privacy_intro_p1:
+        "Esta Política de Privacidad describe Nuestras políticas y procedimientos sobre la recopilación, el uso y la divulgación de Su información cuando utiliza el servicio, y le informa sobre sus derechos de privacidad y cómo la ley lo protege.",
+    privacy_intro_p2:
+        "Utilizamos Sus datos personales para proporcionar y mejorar el servicio. Recopilamos, usamos y divulgamos Su información tal como se describe en esta Política de Privacidad y, cuando lo exija la ley aplicable, únicamente cuando contemos con una base legal válida para hacerlo.",
+    privacy_s1_interp_p1:
+        "Las palabras cuya letra inicial está en mayúscula tienen significados definidos bajo las siguientes condiciones. Las siguientes definiciones tendrán el mismo significado independientemente de que aparezcan en singular o en plural.",
+    privacy_s1_def_intro: "Para los fines de esta Política de Privacidad:",
+    privacy_def_account:
+        "<strong>Cuenta:</strong> significa una cuenta única creada para que Usted acceda a Nuestro Servicio.",
+    privacy_def_affiliate:
+        "<strong>Afiliada:</strong> significa una entidad que controla, es controlada por o está bajo control común con una de las partes (propiedad del 50% o más).",
+    privacy_def_company:
+        '<strong>Empresa:</strong> (referida como "Nosotros", "Nos" o "Nuestro") hace referencia a CryoVigil.',
+    privacy_def_cookies:
+        "<strong>Cookies:</strong> son pequeños archivos colocados en Su computadora o dispositivo móvil que contienen detalles de navegación.",
+    privacy_def_country:
+        "<strong>País/Estado:</strong> hace referencia a Perú.",
+    privacy_def_device:
+        "<strong>Dispositivo:</strong> significa cualquier dispositivo que pueda acceder al Servicio, como una computadora, teléfono celular o tableta.",
+    privacy_def_personal:
+        "<strong>Datos Personales:</strong> es cualquier información relacionada con una persona física identificada o identificable.",
+    privacy_def_service:
+        '<strong>Servicio:</strong> hace referencia al Sitio Web (<a class="text-brand-700 underline hover:text-brand-800" href="https://topglobals.github.io/cryovigil-landing-page/" target="_blank">https://topglobals.github.io/cryovigil-landing-page/</a>).',
+    privacy_def_provider:
+        "<strong>Proveedor de Servicios:</strong> significa empresas o personas externas que procesan datos en nombre de la Empresa.",
+    privacy_def_usage:
+        "<strong>Datos de Uso:</strong> hace referencia a los datos recopilados automáticamente (por ejemplo, duración de la visita a la página, dirección IP).",
+    privacy_def_you:
+        "<strong>Usted:</strong> significa la persona física o entidad jurídica que accede o utiliza el Servicio.",
+    privacy_s2_personal_intro:
+        "La información de identificación personal puede incluir, entre otros:",
+    privacy_s2_personal_item1: "Dirección de correo electrónico",
+    privacy_s2_personal_item2: "Nombre y apellido",
+    privacy_s2_personal_item3: "Número de teléfono",
+    privacy_s2_usage_title: "Datos de Uso",
+    privacy_s2_usage_p1:
+        "Los datos de uso se recopilan automáticamente al utilizar el servicio y pueden incluir direcciones IP, tipos de navegador, horarios de visita, identificadores únicos de dispositivo y datos de diagnóstico.",
+    privacy_s2_cookies_title: "Tecnologías de Seguimiento y Cookies",
+    privacy_s2_cookies_p1:
+        "Utilizamos Cookies, balizas web y tecnologías de seguimiento similares para mejorar la experiencia del usuario y analizar la integridad del sistema. Empleamos Cookies de sesión y persistentes para Servicios Esenciales, Aceptación de Avisos y preferencias de Funcionalidad.",
+    privacy_s2_use_intro: "La Empresa podrá utilizar los datos personales para:",
+    privacy_s2_use_item1:
+        "Proporcionar y mantener nuestro servicio, incluido el monitoreo de su uso.",
+    privacy_s2_use_item2:
+        "Gestionar el registro de su cuenta y el acceso de usuario.",
+    privacy_s2_use_item3:
+        "Cumplir con obligaciones contractuales por productos o servicios adquiridos.",
+    privacy_s2_use_item4:
+        "Contactarlo por correo electrónico, teléfono o SMS respecto a actualizaciones de seguridad o notificaciones operativas.",
+    privacy_s2_use_item5:
+        "Proporcionar noticias y ofertas especiales (cuando lo permita la ley aplicable).",
+    privacy_s2_use_item6:
+        "Gestionar y atender Sus solicitudes de soporte al cliente.",
+    privacy_s2_sms_title: "Aviso de privacidad sobre mensajes de texto",
+    privacy_s2_sms_p1:
+        "Si usted acepta recibir mensajes de texto (SMS) de nuestra parte, recopilamos y almacenamos Su número de teléfono y los registros de consentimiento. <strong>Ninguna información móvil será compartida ni vendida a terceros o afiliados con fines de marketing o promoción.</strong> Responda <code>STOP</code> para darse de baja en cualquier momento.",
+    privacy_s3_intro:
+        "Conservamos Sus datos personales únicamente durante el tiempo necesario para cumplir con obligaciones legales y necesidades operativas:",
+    privacy_s3_item1:
+        "<strong>Cuentas de Usuario:</strong> Se conservan durante la vigencia de la cuenta y hasta 24 meses después de su cierre.",
+    privacy_s3_item2:
+        "<strong>Soporte al Cliente y Chats:</strong> Se conservan hasta por 24 meses para aseguramiento de calidad.",
+    privacy_s3_item3:
+        "<strong>Analítica y Registros del Sitio Web:</strong> Se conservan hasta por 24 meses para resolución de problemas y seguridad.",
+    privacy_s3_p2:
+        "Aunque nos esforzamos por proteger sus datos personales mediante controles comercialmente razonables, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro.",
+    privacy_s4_p1:
+        "Tiene derecho a solicitar la eliminación de sus datos personales. Puede actualizar, modificar o eliminar Su información iniciando sesión en la configuración de Su Cuenta o comunicándose directamente con Nosotros.",
+    privacy_s5_p1:
+        "Nuestro servicio no está dirigido a menores de 16 años. Si descubrimos que hemos recopilado Información Personal de alguien menor de 16 años sin consentimiento parental, tomaremos medidas inmediatas para eliminar dicha información.",
+    privacy_s6_p1:
+        "Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos:",
+    privacy_s6_item1:
+        'Por correo electrónico: <a class="text-brand-700 underline hover:text-brand-800 font-medium" href="mailto:hello@cryovigil.com">hello@cryovigil.com</a>',
+    },
 };
 
 if (typeof window !== "undefined") {
